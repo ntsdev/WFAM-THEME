@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WFAM-THEME</title>
+    <meta charset="utf-8">
+    <script src="../assets/js/jquery.min.js"></script> 
+    <script src="../assets/js/popper.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/form.css"/>    
+     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ </head>
+
+<body class="wfam">
+
+    <div class="container">
+        <h5>Radio Buttons</h5>
+        <form>
+            <fieldset class="form-group">
+                <div class="row">
+                    <div class="form-check col-sm-3 customradiobutton">
+                        <input class="form-check-input" type="radio" name="gridRadio" id="gridRadios1" value="option1" disabled>
+                        <label class="form-check-label" for="gridRadios1">Default</label>
+                    </div>
+                    <div class="form-check col-sm-3">
+                            <input class="form-check-input" type="radio" name="gridRadio" id="gridRadios2" value="option1" disabled>
+                             <span class="customradiomark"></span>
+                            <label class="form-check-label" for="gridRadios2">
+                            Disabled Radio
+                        </label>
+                       
+                    </div>
+                    <div class="form-check col-sm-3">
+                        <input class="form-check-input" type="radio" name="gridRadio" id="gridRadios3" value="option1">
+                        <span class="customradiomark"></span>
+                        <label class="form-check-label" for="gridRadios3">
+                            Hover and Active                            
+                        </label>
+                    </div>
+                    <div class="form-check col-sm-3 customradiobutton">
+                        <input class="form-check-input" type="radio" name="gridRadio" id="gridRadios4" value="option1" disabled>
+                        <label class="form-check-label" for="gridRadios4">
+                            Selected
+                        </label>
+                    </div> 
+                </div> 
+            </fieldset>
+            <h5 class="col-form-label pt-0">Check Box</h5>
+            <div class="form-group row">
+                <div class="form-check col-sm-3 customcheckboxbutton">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1" disabled>
+
+                    <label class="form-check-label" for="gridCheck1">
+                        Default
+                    </label>
+                </div>
+                <div class="form-check col-sm-3">
+                    <input class="form-check-input" type="checkbox" id="gridCheck2" disabled>
+                    <span class="custom_check_box"></span>
+                    <label class="form-check-label" for="gridCheck2">
+                        Disabled
+                    </label>
+                </div>
+                <div class="form-check col-sm-3">
+                    <input class="form-check-input" type="checkbox" id="gridCheck3">
+                    <span class="custom_check_box"></span>
+                    <label class="form-check-label" for="gridCheck3">
+                        Hover and Active
+                    </label>
+                </div>
+                <div class="form-check col-sm-3 customcheckboxbutton">
+                    <input class="form-check-input" type="checkbox" id="gridCheck4" disabled>
+                    <label class="form-check-label" for="gridCheck4">
+                        Selected
+                    </label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control customforms" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control customforms" id="inputPassword4" placeholder="Password">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control customforms" id="inputAddress" placeholder="1234 name street">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control customforms" id="inputCity" placeholder="City">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputZip">Zip Code</label>
+                    <input type="text" class="form-control customforms" id="inputZip">
+                </div>
+            </div>
+            <div class="form-row">
+
+                <div class="form-group col-md-6">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary custombutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" for="inputState" aria-haspopup="true" aria-expanded="false">
+                            <span class="ratetext">Rating</span>
+                            <img class="rateimage" src="http://192.168.64.1/projects/Wellsfargo/new/assets/icons8-expand-arrow-24.png" />
+                        </button>
+                        <div class="dropdown-menu scrollbar" id="scrollbar-custom">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                            <a class="dropdown-item" href="#">Link 4</a>
+                            <a class="dropdown-item" href="#">Link 5</a>
+                            <a class="dropdown-item" href="#">Link 6</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    </form>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
