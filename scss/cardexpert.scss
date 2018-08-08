@@ -1,3 +1,4 @@
+@import "common/_variables";
 #customcardstyle {
     max-width: 300px;
     margin-top: 10px;
@@ -17,6 +18,12 @@
     margin-left: 10px;
     margin-top: 10px;
 }
+.row_bio{
+  width: auto;
+  border-top: 1px solid #8c8b8b;
+   border-color: $onhover;
+  background-color: transparent;
+} 
 
 .customerow1 {
     display: -webkit-box;
@@ -92,12 +99,15 @@ hr {
     height: 100px;
   }
   #card_circule_img1{
-    margin-bottom: 25px
+        margin-bottom: 45px;
+    position: relative;
+    top: 27px;
   }
 
   #card_circule_text{
-    margin-left: 15px;
-    margin-top: 10px
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
   }
   #card_circule_text1{
     margin-left: 130px;
@@ -108,14 +118,32 @@ hr {
     width: 300px;
     margin-top: 10px
   }
-  
+  .card-title_list{
+        top: 39px;
+    position: relative;
+  }
+  .card-title_head
+  {
+         top: 34px;
+    position: relative;
+  }
+   #card_circule_img_test{
+        width: 100px;
+    height: 100px;
+    position: relative;
+    top: 29px;
+   }
   .jumbotron {
     margin-top: 10px;
     background-image: url('https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png');
     background-size: cover;
     color:white;
   } 
-
+.para_list{
+      position: relative;
+    top: -31px;
+    margin-left: 150px;
+}
   .custom_jumbotron {
     margin-top: 10px;
     margin-left: 50px;
