@@ -1,3 +1,4 @@
+@import "common/_variables";
 #customcardstyle {
     max-width: 300px;
     margin-top: 10px;
@@ -130,3 +131,35 @@ hr {
     margin-left: 50px;
     padding: 5px;
   } 
+  @media only screen and (max-width: 600px) {
+    .custom_jumbotron {
+        margin-top: 10px;
+        margin-left: 10px;
+        position: relative;
+        top: 193px;
+        width: 520px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-size: cover;
+        color: white;
+      } 
+      .custom_jumbotron1 {
+        margin-top: 5px;
+    margin-left: 50px;
+    padding: 9px;
+    top: -34px;
+    position: relative;
+      } 
+      p{
+        display:inline;
+        word-wrap: break-word;
+       }
+       h2{
+        display:inline;
+        word-wrap: break-word;
+       }
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
