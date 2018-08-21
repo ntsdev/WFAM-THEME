@@ -1,132 +1,38 @@
-#customcardstyle {
-  max-width: 300px;
-  margin-top: 10px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-
-#customecard_urole {
-  max-width: 300px;
-  margin-top: 10px;
-  height: 50px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-
-.customerow {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 10px;
-  margin-top: 10px; }
-
-.customerow1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-left: 50px;
-  margin-top: 13px; }
-
-.custom_card-body {
-  padding: 0rem; }
-
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 0.5px solid black;
-  margin-right: 16px;
-  margin-left: 16px; }
-
-#custom_p {
-  margin-left: 16px; }
-
-.custom_button {
-  border-width: 1px;
-  border-radius: 40px;
-  border-color: blue;
-  background-color: transparent; }
-
-.clicker {
-  outline: none;
-  cursor: pointer; }
-
-.hiddendiv {
-  display: none; }
-
-.clicker:focus + .hiddendiv {
-  display: block; }
-
-.rounded-circle {
-  border-radius: 50%; }
-
-.c {
-  max-width: 380px;
-  padding: 15px;
-  margin-top: 30px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
-
-.c img {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 3px; }
-
-.c .top-sec {
-  margin-top: -65px;
-  margin-bottom: 10px;
-  margin-left: 250px; }
-
-#card_circule_img {
-  width: 100px;
-  height: 100px; }
-
-#card_circule_img1 {
-  margin-bottom: 25px; }
-
-#card_circule_text {
-  margin-left: 15px;
-  margin-top: 10px; }
-
-#card_circule_text1 {
-  margin-left: 130px;
-  margin-top: 10px; }
-
-#custom_button {
-  width: 300px;
-  margin-top: 10px; }
-
 .jumbotron {
-  margin-top: 10px;
-  background-image: url("https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png");
+  margin-top: 1rem;
+  background-image: url("../assets/images/learningheader.png");
   background-size: cover;
   color: white; }
 
 .custom_jumbotron {
-  margin-top: 10px;
-  margin-left: 50px;
-  padding: 5px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
   color: white; }
 
 .custom_jumbotron1 {
-  margin-top: 10px;
-  margin-left: 50px;
-  padding: 5px; }
+  margin-top: 1rem;
+  margin-left: 5rem;
+  padding: 0.5rem; }
 
 @media only screen and (max-width: 600px) {
   .custom_jumbotron {
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
     position: relative;
-    top: 193px;
-    width: 520px;
-    padding: 5px;
+    top: 16rem;
+    width: 25rem;
+    padding: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
     background-size: cover;
     color: white; }
   .custom_jumbotron1 {
-    margin-top: 5px;
-    margin-left: 50px;
-    padding: 9px;
-    top: -34px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    top: -5rem;
     position: relative; }
   p {
     display: inline;

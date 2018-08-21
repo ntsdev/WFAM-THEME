@@ -1,23 +1,5 @@
 @import "common/_variables";
-#customcardstyle {
-    max-width: 300px;
-    margin-top: 10px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-#customecard_urole {
-    max-width: 300px;
-    margin-top: 10px;
-    height: 50px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-.customerow { 
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    margin-top: 10px;
-}
+ 
 .row_bio{
   width: auto;
   border-top: 1px solid #8c8b8b;
@@ -73,88 +55,69 @@ hr {
 }
 
 .rounded-circle {
-    border-radius: 50%;
+    border-radius: 50rem;
 }
 
 .c {
-    max-width: 380px;
-    padding: 15px;
-    margin-top: 30px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    max-width: 28rem;
+    padding: 1rem;
+    margin-top: 3rem;
 }
 .c img {
     width: 100%;
     object-fit: cover;
-    border-radius: 3px;
+    border-radius: 1rem;
   }
   
   .c .top-sec {
-    margin-top: -65px;
-    margin-bottom: 10px;
-    margin-left: 250px;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+    margin-left: 12rem;
   }
 
   #card_circule_img{
-    width:100px;
-    height: 100px;
+    width:8rem;
+    height: 8rem;
   }
   #card_circule_img1{
-        margin-bottom: 45px;
+        margin-bottom: 3rem;
     position: relative;
-    top: 27px;
+    top: 2rem;
   }
 
   #card_circule_text{
     position: absolute;
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
   }
   #card_circule_text1{
-    margin-left: 130px;
-    margin-top: 10px
+    margin-left: 8rem;
+    margin-top: 0.6rem
   }
 
   #custom_button{
-    width: 300px;
-    margin-top: 10px
+    width: 30rem;
+    margin-top: 101rem
   }
   .card-title_list{
-        top: 39px;
+        top: 3rem;
     position: relative;
   }
   .card-title_head
   {
-         top: 34px;
+         top: 2.5rem;
     position: relative; 
   }
    #card_circule_img_test{
-        width: 100px;
-    height: 100px;
+        width: 6rem;
+    height: 6rem;
     position: relative;
-    top: 29px;
+    top: 2.5rem;
    }
-  .jumbotron {
-    margin-top: 10px;
-    background-image: url('https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png');
-    background-size: cover;
-    color:white;
-  } 
+  
 .para_list{
       position: relative;
-    top: -31px;
-    margin-left: 150px;
+    top: -2rem;
+    margin-left: 10rem;
 }
-  .custom_jumbotron {
-    margin-top: 10px;
-    margin-left: 50px;
-    padding: 5px;
-    background-color: rgba(0, 0, 0,0.6);
-    background-size: cover;
-    color:white;
-  } 
-
-  .custom_jumbotron1 {
-    margin-top: 10px;
-    margin-left: 50px;
-    padding: 5px;
-  } 
+   
